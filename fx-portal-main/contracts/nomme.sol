@@ -11,11 +11,11 @@ contract nomme is ERC721A {
 
     
     string baseUrl =
-        "https://indigo-immense-barnacle-223.mypinata.cloud/ipfs/QmYAguVHDGpTpHTP1bpG9VmVhZHJt5RHQii4TvAxbCWUqo/";
+       your url;
 
 
     string public prompt = "not me";
-    constructor() ERC721A("CuteCats", "CC") {
+    constructor() ERC721A("nomme", "RR") {
         owner = msg.sender;
     }
 
